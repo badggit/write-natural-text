@@ -1,0 +1,21 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "write-natural-text",
+  "description": "Marketplace for the write-natural-text plugin: plain, human-sounding English without AI writing tells.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "badggit"
+  },
+  "plugins": [
+    {
+      "name": "write-natural-text",
+      "displayName": "Write Natural Text",
+      "source": "./plugins/write-natural-text",
+      "description": "One skill, /write-natural-text, that writes, rewrites, or checks English text so it reads like a real person wrote it: plain B1-level words, a personal view, uneven structure, no AI writing tells, ASCII punctuation only. Ships the voice guide and a research-backed catalog of AI writing signals with the fix for each.",
+      "author": {
+        "name": "badggit"
+      },
+      "category": "productivity"
+    }
+  ]
+}

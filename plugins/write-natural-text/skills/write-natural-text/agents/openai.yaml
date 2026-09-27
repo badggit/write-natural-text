@@ -1,0 +1,6 @@
+interface:
+  display_name: "Write Natural Text"
+  short_description: "Plain, human-sounding text with no AI writing tells."
+  default_prompt: "Use $write-natural-text to write or rewrite this text so it reads like a real person wrote it."
+policy:
+  allow_implicit_invocation: true

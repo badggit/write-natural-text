@@ -1,0 +1,27 @@
+# Machine-local instructions and notes (AGENTS.md itself is tracked)
+*.local
+*.local.*
+local.*
+
+# Agent harness local state (keep the trailing slash: .claude* would eat .claude-plugin/)
+.claude/
+.codex/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS junk
+.DS_Store
+._*
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Tooling
+node_modules/
+*.log

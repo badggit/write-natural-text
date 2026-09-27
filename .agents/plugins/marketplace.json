@@ -1,0 +1,20 @@
+{
+  "name": "write-natural-text",
+  "interface": {
+    "displayName": "Write Natural Text"
+  },
+  "plugins": [
+    {
+      "name": "write-natural-text",
+      "source": {
+        "source": "local",
+        "path": "./plugins/write-natural-text"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

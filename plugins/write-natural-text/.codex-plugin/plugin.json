@@ -1,0 +1,35 @@
+{
+  "name": "write-natural-text",
+  "version": "1.0.0",
+  "description": "One skill, $write-natural-text, that writes, rewrites, or checks English text so it reads like a real person wrote it: plain B1-level words, a personal view, uneven structure, no AI writing tells, ASCII punctuation only. Ships the voice guide and a research-backed catalog of AI writing signals with the fix for each.",
+  "author": {
+    "name": "badggit"
+  },
+  "keywords": [
+    "writing",
+    "natural-language",
+    "ai-detection",
+    "plain-english",
+    "b1",
+    "course-answers",
+    "posts"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Write Natural Text",
+    "shortDescription": "Plain, human-sounding English at B1 level with no AI writing tells.",
+    "longDescription": "Writes, rewrites, or checks English text so it reads like a real person wrote it. Default voice: a fourth-year student who knows the subject and explains it in ordinary words. Covers course answers, social posts, one-line additions, and longer articles. Bundles a voice guide and a catalog of measured AI writing signals (participial clauses, nominalizations, rule of three, symmetric arguments, generic vocabulary, formatting habits) with the fix for each, plus a final checklist.",
+    "developerName": "badggit",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Write a course answer that reads like my own writing.",
+      "Rewrite this draft so it does not look machine-written.",
+      "Check this text for AI writing tells.",
+      "Add one line to this post in the same voice."
+    ]
+  }
+}
