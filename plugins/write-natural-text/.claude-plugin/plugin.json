@@ -1,6 +1,6 @@
 {
   "name": "write-natural-text",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "One skill, /write-natural-text, that writes, rewrites, or checks English text so it reads like a real person wrote it: plain B1-level words, a personal view, uneven structure, no AI writing tells, ASCII punctuation only. Ships the voice guide and a research-backed catalog of AI writing signals with the fix for each.",
   "author": {
     "name": "badggit"

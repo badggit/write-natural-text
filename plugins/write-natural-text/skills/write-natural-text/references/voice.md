@@ -1,6 +1,10 @@
 # Voice and level
 
-This file describes the default voice for `write-natural-text` and the writing patterns that make a text feel prepared by a machine even when the words are simple. Read it before writing; use `ai-tells.md` for the final check.
+Use this guide for voice and genre choices; use `ai-tells.md` for the final check.
+
+## Match the writer
+
+Explicit user requirements take priority over a supplied sample, and a sample takes priority over the default voice. Match sentence length, openings, transitions, vocabulary, formality, and genuine humor or asides. Keep punctuation within the task's formatting rules. A sample does not authorize invented facts, opinions, or experiences. Without a sample, use the draft's genre and the default below; neutral factual text stays neutral.
 
 ## The default speaker
 
@@ -40,7 +44,7 @@ Choose replacements by meaning. "Check" is not always enough to describe a forma
 
 Use mostly straightforward sentence forms. Split a sentence when it has several conditions or side points. There is no fixed word limit per sentence; making every sentence equally short creates another visible pattern.
 
-Technical names can stay when the task needs them: API, SQL, encryption, load testing. Explain unfamiliar terms briefly through what people do. Do not replace an exact term with a vague word just to make the vocabulary easier. Low predictability comes from specific content, not from rare words, so an exact term from the course or the project makes the text more human, not less.
+Keep exact technical terms such as API, SQL, encryption, and load testing. Explain unfamiliar ones through what people do; do not replace them with vague words to lower the level.
 
 Keep ordinary grammar. Do not add spelling errors, broken articles, fake foreign expressions, or random filler. A text can sound natural and still be correct.
 
@@ -64,11 +68,15 @@ Still cover everything the question asks. Check coverage privately, then let the
 
 ### Too many explicit cause-and-effect links
 
-Before:
+Brief:
 
-> Both features support the goal of the scenario: fewer missed deliveries and less work for the drivers.
+> Customers can move a delivery to a later time in the app instead of calling the shop. The writer dislikes making that call.
 
-This repeats the assignment's purpose and tells the reader a criterion has been met. Prefer a situation:
+Weak draft:
+
+> Moving a delivery in the app supports the goal of avoiding a call to the shop.
+
+This spells out the feature-to-benefit link mechanically. When drafting from the brief, describe the supplied situation:
 
 > If I know I'll be late, I want to move my delivery to a later time myself. Calling the shop just for that is annoying.
 
@@ -86,9 +94,11 @@ Before:
 
 > The scenario does not include real data about customers.
 
-The first is vague. Show what could go wrong:
+The first is vague. If the brief identifies a booking problem, explain that problem:
 
 > The app might let a customer pick a delivery time when no driver is free. The shop needs to see that before the customer gets a confirmation.
+
+Without that detail, ask or keep the statement general; a style rewrite cannot invent the failure mode.
 
 The second can be necessary for honesty, but must not become a standard closing sentence. If the question asks for evidence, say what the choice is based on in the relevant part of the answer. Do not remove uncertainty by inventing research.
 
@@ -139,6 +149,18 @@ A reference for length and tone, not a paragraph to reuse.
 If the user asks for one extra line, return the line without a long introduction or several unrequested options. When editing an existing sentence, keep earlier requested points unless the user replaces or removes them. Keep mild criticism when the user asked for it; do not soften it into praise or make it stronger than intended. Example:
 
 > The written updates only help when everyone remembers to post them.
+
+### Replies in a conversation
+
+When the thread is available, begin with the answer, decision, or request. Omit background the recipient supplied or already accepted. Keep new facts, necessary reasons, and details needed to act; do not remove them merely to make the reply short. If the audience or context is unclear, retain enough background for the text to stand alone.
+
+Given a message that already explains why a delivery date must move:
+
+> Before: You explained that the boxes will arrive on Tuesday, so Monday is no longer possible. We can deliver on Wednesday. Does that work?
+>
+> After: We can deliver on Wednesday. Does that work?
+
+This omission is appropriate for the reply, not for a standalone delivery notice.
 
 ### Posts for other platforms
 
