@@ -4,11 +4,11 @@ The signals that AI detectors and experienced readers use to spot machine-writte
 
 ## What this can and cannot do
 
-- Modern detectors are trained classifiers, not lists of banned words. Removing the surface tells below does not guarantee a "human" score, and text that went through "humanizer" tools is still caught most of the time.
+- Modern detectors are trained classifiers, not lists of banned words. Removing the surface tells below does not guarantee a "human" score, even after the text has been rewritten.
 - Simple non-native prose gets flagged MORE, not less. Detectors that measure predictability flag a large share of genuine essays by non-native writers, because a narrow vocabulary makes the text easy to predict. So the B1 target and a low detector score pull in different directions. The way out is not fancier vocabulary. It is unpredictability from content: a specific fact, a real choice, an uneven argument, a detail only this author would mention.
 - The real reader is a human grader or a contact on a social network, and people who use LLMs a lot recognise AI text most of the time. Write for that reader. Do not chase a detector.
 - Signals only add up. One "not only ... but also", one "moreover", one triad prove nothing and are used by millions of people. The suspicious case is ten weak signals in one short text. Do not break a good sentence to remove a single tell.
-- Do not claim that a text will pass a detector, and do not run the user's text through third-party humanizer tools.
+- Do not claim that a text will pass a detector, and do not run the user's text through third-party rewriting tools.
 
 ## Signals and fixes
 
