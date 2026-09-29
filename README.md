@@ -72,9 +72,9 @@ It stays out of code, commit messages, and technical reference docs unless asked
 
 1. Works out the mode: `write` a new text, `rewrite` a draft, `add` one line to an existing text, or `check` a text and report the tells without rewriting it.
 2. Collects the real material: the brief, notes, the writer's actual opinion, earlier accepted texts if any. If a personal detail is required and missing, it asks one short question instead of inventing one.
-3. Writes in the default voice: a fourth-year student who knows the subject and explains it in ordinary words. The level can be raised on request ("B2", "native").
-4. Runs a final check against a catalog of measured AI writing signals, grouped by grammar, structure, vocabulary, content, and formatting, each with its fix.
-5. Returns the text, or saves a file when one was requested and confirms it contains only ASCII characters.
+3. Follows explicit requirements and the writer's supplied sample before the default voice: a fourth-year student who explains the subject in ordinary words. The level can be raised on request ("B2", "native"). Replies use the available conversation to avoid repeating known background; standalone texts keep the context they need.
+4. Checks structural patterns before individual phrases, then compares the result with the original claims. Numbers, conditions, uncertainty, comparisons, and timing must survive a style edit. Real contrasts and lists stay when their content needs them.
+5. Returns the finished text, or saves a file when requested. File edits preserve code, commands, paths, frontmatter, data, and link targets. ASCII checks apply to edited prose; verbatim quotations, names of works, proper names, and technical spans stay intact.
 
 Language: the deliverable is written in the language the request asks for. The word lists in the references are for English; the rules about structure, content, and formatting apply to any language.
 
